@@ -35,6 +35,7 @@ Semantic Version:
     เราควร (push tag remote) เพื่อทำให้remote มีเเท็คเดียวกัน
     สามารถใช้คำสั่ง git push origin <tag> หรือ git push --tags
     เพื่อส่งtag ไปยังlocal remoteทั้งหมด
+    **กรณีใช้gi
 
 Git Branches: เเบ่งสาขาการพัฒนา
 -เเบ่งสาขา เพื่อเเยกชุดโค๊ดตามปัจจัย
@@ -43,3 +44,5 @@ Git Branches: เเบ่งสาขาการพัฒนา
     -feature/* สาขาปลีกย่อย
 -สร้าง branch ใหม่ด้วยคำสั่ง git branch <name>
 -สลับไปยัง branch (chechout) ด้วยคำสั่ง git checkout <name>
+
+Git Merge : รวมสาขาการพัฒนา

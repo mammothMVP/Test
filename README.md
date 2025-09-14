@@ -10,3 +10,14 @@ Git Commits:บันทึกการเปลี่ยนเเลง
         -Contentional Commits เเนวทางเขียน Commit ให้มีความหมาย
         - ทำการ commit บนvscode สามารถกดคียลัด ctrl + enter
         -หรือใช้คำสั่ง git commit -m <massege>
+
+Git Remote: เชื่อมต่อกับ Git Provider
+                Locak Repository
+    Commit 1 ---> commit 2 ---> commit 3
+
+        - เข้าสู่ระบบ GitHub จากนั้นสร้าง (Remote Repository)
+        - ตั้งค่าการเชื่อมต่อระหว่าง (Local Repository) ไปยัง (Remote Repository)
+        -โดยกำหนด(git URL) ผ่านฟันเฟือง
+        -หรือคำสั่ง git remote add <name> <url>
+        -ส่วนมาก <name> จะใช้เป็นชื่อorigin
+    sdfsdf

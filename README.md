@@ -25,3 +25,21 @@ Git Clone : clone repository ของคนอื่น
     วิธีทำ คือ (window) cmd ตั้งcd เตรียมไฟล์ที่เราจะใส่ลงไป
     Ex. git clone https://github.com/nicknochnack/Llama2RAG
     repository ก็จะมาเเล้ว
+
+Semantic Version:
+    ง่ายๆ คือ ตัวอย่าง 3.12.5
+        - มีการเปลี่ยนเเปลงครั้งใหญ่ 3 ครั้ง
+        - มีการเพิ่มคุณสมบัติใหม่มาเเล้ว 12 ครั้ง
+        - เวอร์ชั่น3.12 โดยเเก้ไขมาเเล้ว5ครั้ง
+    หรือ ใช้คำสั่ง git tag <name>
+    เราควร (push tag remote) เพื่อทำให้remote มีเเท็คเดียวกัน
+    สามารถใช้คำสั่ง git push origin <tag> หรือ git push --tags
+    เพื่อส่งtag ไปยังlocal remoteทั้งหมด
+
+Git Branches: เเบ่งสาขาการพัฒนา
+-เเบ่งสาขา เพื่อเเยกชุดโค๊ดตามปัจจัย
+    -main หรือ master สาขาหลักเสถียรสุด
+    -develop สาขาระหว่างพัฒนา ยังไม่พร้อมใช้จริง
+    -feature/* สาขาปลีกย่อย
+-สร้าง branch ใหม่ด้วยคำสั่ง git branch <name>
+-สลับไปยัง branch (chechout) ด้วยคำสั่ง git checkout <name>

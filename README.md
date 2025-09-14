@@ -21,5 +21,7 @@ Git Remote: เชื่อมต่อกับ Git Provider
         -หรือคำสั่ง git remote add <name> <url>
         -ส่วนมาก <name> จะใช้เป็นชื่อorigin
 
-upload
-nte oder
+Git Clone : clone repository ของคนอื่น 
+    วิธีทำ คือ (window) cmd ตั้งcd เตรียมไฟล์ที่เราจะใส่ลงไป
+    Ex. git clone https://github.com/nicknochnack/Llama2RAG
+    repository ก็จะมาเเล้ว

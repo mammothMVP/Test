@@ -20,4 +20,6 @@ Git Remote: เชื่อมต่อกับ Git Provider
         -โดยกำหนด(git URL) ผ่านฟันเฟือง
         -หรือคำสั่ง git remote add <name> <url>
         -ส่วนมาก <name> จะใช้เป็นชื่อorigin
-    sdfsdf
+
+upload
+nte oder

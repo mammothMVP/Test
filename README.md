@@ -46,3 +46,6 @@ Git Branches: เเบ่งสาขาการพัฒนา
 -สลับไปยัง branch (chechout) ด้วยคำสั่ง git checkout <name>
 
 Git Merge : รวมสาขาการพัฒนา
+    -เมื่อโค๊ดพร้อมใช้งาน รวมbranch(Merge) ด้วยคำสั่ง  git merge <branch>
+    - ก่อนmerge ทุกครั้งต้องcheck outไปยังbranch หลักที่จะรวมของครอื่นก่อน
+    ** มีโอกาสเกิด (Corflict)ได้ 
